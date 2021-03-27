@@ -1,7 +1,11 @@
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Lora", sans-serif;
   font-size: 16px;
   line-height: 1;
+}
+
+h1 {
+  padding-bottom: 1.5rem;
 }
 
 textarea {
@@ -39,6 +43,7 @@ input {
   text-align: center;
   border-radius: 15px;
 }
+
 
 .row {
   white-space: pre-wrap;
@@ -87,5 +92,9 @@ button:active {
   transition: all 0.3s ease-in-out;
 }
 
+#current-date-time {
+  font-family: "Lora", sans-serif;
+  font-size: 20px;
+}
 /* questions for Cameron */
 /* how to style jQuery elements on CSS - ex. after creating a class - col-8 */

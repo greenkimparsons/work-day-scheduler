@@ -18,28 +18,118 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <title>Work Day Scheduler</title>
   </head>
 
   <body>
-    <header class="jumbotron text-center" >
+    <header class="jumbotron text-center">
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
-      <span class = "p" id="current-date-time"></span>
+      <span class="p" id="current-date-time"></span>
     </header>
     <div class="container">
-        <span class="row" id="times-and-tasks">
-                <form class="col-6 col-md-6 col-xl-8">
-                    <input type="text" class="form-input w-100" id="planner-input" name="planner-input" placeholder="What are you planning" />
-                    <button class="col-4 col-md-2 col-xl-2" id="save-button">Save</button>
-                </form>
-            
-        </span>
+        <div id="9" class="row time-block">
+            <div class="col-sm-1 hour">
+              <span>9AM</span>
+            </div>
+            <textarea class="col-sm-10 description"></textarea>
+            <div class="col-sm-1 saveBtn">
+              <i class="fas fa-save"></i>
+            </div>
+          </div>
+          <div id="10" class="row time-block">
+            <div class="col-sm-1 hour">
+              <span>10AM</span>
+            </div>
+            <textarea class="col-sm-10 description"></textarea>
+            <div class="col-sm-1 saveBtn">
+              <i class="fas fa-save"></i>
+            </div>
+          </div>
+          <div id="11" class="row time-block">
+            <div class="col-sm-1 hour">
+              <span>11AM</span>
+            </div>
+            <textarea class="col-sm-10 description"></textarea>
+            <div class="col-sm-1 saveBtn">
+              <i class="fas fa-save"></i>
+            </div>
+          </div>
+          <div id="12" class="row time-block">
+            <div class="col-sm-1 hour">
+              <span>12PM</span>
+            </div>
+            <textarea class="col-sm-10 description"></textarea>
+            <div class="col-sm-1 saveBtn">
+              <i class="fas fa-save"></i>
+            </div>
+          </div>
+          <div id="13" class="row time-block">
+            <div class="col-sm-1 hour">
+              <span>1PM</span>
+            </div>
+            <textarea class="col-sm-10 description"></textarea>
+            <div class="col-sm-1 saveBtn">
+              <i class="fas fa-save"></i>
+            </div>
+          </div>
+          <div id="14" class="row time-block">
+            <div class="col-sm-1 hour">
+              <span>2PM</span>
+            </div>
+            <textarea class="col-sm-10 description"></textarea>
+            <div class="col-sm-1 saveBtn">
+              <i class="fas fa-save"></i>
+            </div>
+          </div>
+          <div id="15" class="row time-block">
+            <div class="col-sm-1 hour">
+              <span>3PM</span>
+            </div>
+            <textarea class="col-sm-10 description"></textarea>
+            <div class="col-sm-1 saveBtn">
+              <i class="fas fa-save"></i>
+            </div>
+          </div>
+          <div id="16" class="row time-block">
+            <div class="col-sm-1 hour">
+              <span>4PM</span>
+            </div>
+            <textarea class="col-sm-10 description"></textarea>
+            <div class="col-sm-1 saveBtn">
+              <i class="fas fa-save"></i>
+            </div>
+          </div>
+          <div id="17" class="row time-block">
+            <div class="col-sm-1 hour">
+              <span>5PM</span>
+            </div>
+            <textarea class="col-sm-10 description"></textarea>
+            <div class="col-sm-1 saveBtn">
+              <i class="fas fa-save"></i>
+            </div>
+          </div>
+      <span class="row" id="times-and-tasks">
+        <div class="col-6 col-md-6 col-xl-8">
+          <input
+            type="text"
+            class="form-input w-100"
+            id="planner-input"
+            name="planner-input"
+            placeholder="What are you planning"
+          />
+          <button class="col-4 col-md-2 col-xl-2" id="save-button">Save</button>
+        </div>
+      </span>
     </div>
-    
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
     <script src="./assets/script.js"></script>
   </body>

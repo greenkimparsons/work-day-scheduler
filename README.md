@@ -6,5 +6,5 @@ First started off with date and aligning elements in jumbotron was successful in
 # screenshot
 
 ## Deployed Site
-[Deployed Site](https://greenkimparsons.github.io/codequiz/.)
+[Deployed Site](https://github.com/greenkimparsons/work-day-scheduler.)
 ![screenshot](./assets/workday.png)

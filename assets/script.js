@@ -1,4 +1,6 @@
 var currentDateTimeSpan = $("#current-date-time");
+// var currentDateTimeSpan = document.querySelector("#current-date-time");
+console.log(currentDateTimeSpan);
 
 function updateCurrentTime(){
     currentDateTimeSpan.text(moment().format("MMMM Do YYYY"));
@@ -48,7 +50,7 @@ saveButton.addEventListener("click", function(event) {
   });
 
 
-  // Jonathan's gem store example
+
   var timesAndTasks = $("#times-and-tasks");
 
   for(var i = 0; i < timeBlock.length; i++){
